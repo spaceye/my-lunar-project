@@ -1,9 +1,11 @@
+import { ReactNode } from 'react';
+
 interface HelloProps {
-  name: string;
+  children?: ReactNode;
 }
 
-const Hello: React.FC<HelloProps> = ({ name }) => {
-  return <h1>Hello, {name}!</h1>;
+const Hello: React.FC<HelloProps> = ({ children }) => {
+  return <h1>{children}</h1>;
 };
 
 export default Hello;
