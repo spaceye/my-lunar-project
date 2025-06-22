@@ -50,3 +50,4 @@ jobs:
           personal_token: ${{ secrets.GH_PAT }}
           publish_dir: dist
           destination_dir: .
+          force_orphan: true
