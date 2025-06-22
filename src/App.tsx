@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <Hello name={'world'} />
+      <Hello name={'CI/CD world!'} />
     </>
   );
 }
