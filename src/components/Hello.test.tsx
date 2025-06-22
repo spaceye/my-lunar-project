@@ -20,5 +20,5 @@ test('renders a node', () => {
 test('renders nothing', () => {
   const { container } = render(<Hello />);
 
-  expect(container.querySelector('h1').children.length).toBe(1);
+  expect(container.querySelector('h1').children.length).toBe(0);
 });
