@@ -48,4 +48,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.GH_PAT }}
-          publish_dir: ./dist
+          publish_dir: dist
+          destination_dir: .
